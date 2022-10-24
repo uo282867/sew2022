@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Interfaz de Linea de Comandos</title>
+
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Enrique" />
+    <meta name ="description" content ="Se explica por encima lo que es una cli y luego nos centramos en la de ember" />
+    <meta name ="keywords" content ="Ember, Ember.js, Framework, html, css, CLI" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>Interfaz de Linea de Comandos (CLI)</h1>
+    </header>
+
+    <nav>
+        <a title = "Indice" tabindex = "1" href="Index.html">Indice</a>
+        <a title = "CLI" tabindex = "2" href="CLI.html">Interfaz Linea Comandos</a>
+        <a title = "otros_datos" tabindex = "3" href="Otros_datos_interesantes.html">Otros datos</a>
+        <a title = "Formulario" tabindex = "4" href="Formulario.html">Formulario</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Que es una Interfaz de linea de comandos</h2>
+            <p>La <strong>interfaz de línea de comandos</strong> o <strong>interfaz de línea de órdenes</strong> 
+                (en inglés, command-line interface, <strong>CLI</strong>) 
+                permite a los usuarios dar instrucciones a algún programa informático o 
+                al sistema operativo por medio de una línea de texto simple. </p>
+            <p>Las CLI pueden emplearse interactivamente, 
+                escribiendo instrucciones en alguna especie de entrada de texto, o 
+                pueden utilizarse de una forma mucho más automatizada (archivo batch), 
+                leyendo órdenes desde un archivo de scripts.</p>
+            <p>Esta interfaz existe casi desde los comienzos de la computación, 
+                superada en antigüedad solo por las tarjetas perforadas y mecanismos similares. 
+                Existen para diversos programas y sistemas operativos, 
+                para diverso hardware, y con distinta funcionalidad.
+            </p>
+        </section>
+        
+        <section>
+            <h2>La CLI de Ember</h2>
+            <p>La <strong>CLI</strong> de Ember.js se caracteriza por poseer:</p>
+            <ul>
+                <li>Estructura basada en archivos y ficheros</li>
+                <li>Servidor para desarrolladores que permite recargar la página cada vez que se realiza un cambio</li>
+                <li>Herramienta de tests:
+                    <ul>
+                        <li>QUnit & QUnit DOM: QUnit es un marco de prueba y QUnit DOM es una biblioteca que facilita la escritura de pruebas concisas y legibles.</li>
+                        <li>Mocha & Chai DOM: Ember permite realizar pruebas con este framework si se intala ember-mocha y Chai DOM</li>
+                        <li>Cuando usa Ember CLI para generar un "objeto" de Ember (por ejemplo, componente, modelo, servicio), creará un archivo de prueba con una configuración que aborda correctamente su marco de prueba y el tipo de prueba que debe escribir.</li>
+                    </ul>
+                </li>
+                <li>Gestion de dependencias por medio de npm</li>
+                <li>Soporte de sintaxis ES6/ES7+</li>
+                <li>Soporte para gestionar Assets</li>
+                <li><strong>Blueprints <sup>[1]</sup></strong></li>
+                <li>Una gran cantidad de addons que permiten aumentar aun más las caracteristicas de la <strong>CLI</strong></li>
+            </ul>
+            <p><strong>Blueprints <sup>[1]</sup></strong>: generadortes de código que ayudan a crear modelos, controladores...</p>
+        </section>
+
+        <section>
+            <h2>Como hacer un "Hola mundo" en ember.js:</h2>
+            <video controls preload="auto"><source src='multimedia/archivos_videos/Hola_mundo_EmberJS.mp4' type = 'video/mp4' /></video>
+        </section>
+
+    </main>
+
+    <picture>
+        <img src="multimedia/archivos_graficos/Ember_Logo_and_Mascot.png" alt=" HTML5 Válido!" />
+    </picture>
+
+    <footer>    
+        <p>Trabajo sobre el framework Ember.js realizado por el estudiante de la uniovi: Enrique Hilanderas</p>
+    </footer>
+
+</body>
+</html>

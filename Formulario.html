@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Enrique" />
+    <meta name ="description" content ="formulario para recoger opiniones" />
+    <meta name ="keywords" content ="Ember, Ember.js, Framework, html, css" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>Danos tu opinion</h1>
+    </header>
+    
+    <nav>
+        <a title = "Indice" tabindex = "1" href="Index.html">Indice</a>
+        <a title = "CLI" tabindex = "2" href="CLI.html">Interfaz Linea Comandos</a>
+        <a title = "otros_datos" tabindex = "3" href="Otros_datos_interesantes.html">Otros datos</a>
+        <a title = "Formulario" tabindex = "4" href="Formulario.html">Formulario</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Formulario:</h2>
+            <form name = "opiniones">
+                <p><label for="nombre">Nombre: </label><input id = "nombre" type="text"/></p>
+                <p><label for="apell">Apellidos: </label><input id = "apell" type="text"/></p>
+                <p><label for="date">Fecha nacimiento: </label><input id = "date" type="date"/></p>
+                <p><label for="mail">E-mail: </label><input id = "mail" type="email"/></p>
+                <p><label for="telefono"></label>Teléfono: <input id = "telefono" type="tel"/></p>
+                
+                <fieldset>
+                    <legend>¿Te ha sido útil la información?</legend>
+
+                    <p><label for="si">Sí: </label><input id = "si" type="radio" name = "useful" value="util" checked/></p>
+                    <p><label for="no">No: </label><input id = "no" type="radio" name = "useful" value="no_util"/></p>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Opinión:</legend>
+                    <textarea cols="30" rows="10"></textarea>
+                </fieldset>
+                    
+                <input type="submit" value="Enviar" />
+
+            </form>
+        </section>
+    </main>
+
+    <picture>
+        <img src="multimedia/archivos_graficos/Ember_Logo_and_Mascot.png" alt=" HTML5 Válido!" />
+    </picture>
+    
+    <footer>    
+        <p>Trabajo sobre el framework Ember.js realizado por el estudiante de la uniovi: Enrique Hilanderas</p>
+    </footer>
+
+</body>
+</html>

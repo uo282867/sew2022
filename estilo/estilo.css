@@ -1,0 +1,81 @@
+/**********************/
+/* Enrique Hilanderas Corbillón UO282867
+/* estilo css
+/* Hoja de estilo principal.
+/**********************/
+
+/*Especifidad: 001 */
+body {
+    font-family: "Comic Sans", "Comic Sans MS", cursive;
+    color: #525252;
+    background-color: #ffffe0;
+}
+
+/*Especifidad: 001 */
+h1, h2 {
+    color: #000000;
+
+    border-bottom: double 0.3em;
+}
+
+/*Especifidad: 001 */
+h3 {
+    color: #2f4f4f;
+
+    border-bottom: dotted 0.3em;
+}
+
+/*Especifidad: 001 */
+nav {
+    background-color: #FCF5E8;
+
+    border: inset 0.5em;
+}
+
+/*Especifidad: 001 */
+footer {
+    color: black;
+    font-weight: bolder;
+}
+
+/*Especifidad: 001 */
+address {
+    font-weight: bold;
+    color: #164D88;
+}
+
+/*Especifidad: 001 */
+ul {
+    color : #164D88;
+}
+
+/*Especifidad: 002 */
+table > caption {
+    color: #1E46BE;
+    border-bottom: solid 0.3em;
+}
+
+/*Especifidad: 001 */
+table {
+    border-collapse: collapse;
+}
+
+/*Especifidad: 001 */
+th {
+    color: black;
+}
+
+/*Especifidad: 001 */
+td, th {
+    border: solid 0.2em;
+}
+
+/*Especifidad: 001 */
+picture {
+    border-left: solid 0.2em #808080;
+}
+
+/*Especifidad: 003 */
+form > fieldset > legend {
+    border-bottom: solid 0.2em;
+}
