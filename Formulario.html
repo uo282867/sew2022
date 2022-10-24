@@ -27,10 +27,10 @@
     </header>
     
     <nav>
-        <a title = "Indice" tabindex = "1" href="Index.html">Indice</a>
-        <a title = "CLI" tabindex = "2" href="CLI.html">Interfaz Linea Comandos</a>
-        <a title = "otros_datos" tabindex = "3" href="Otros_datos_interesantes.html">Otros datos</a>
-        <a title = "Formulario" tabindex = "4" href="Formulario.html">Formulario</a>
+        <a tabindex = "1" href="Index.html" accesskey="i">Indice</a>
+        <a tabindex = "2" href="CLI.html" accesskey="l">Interfaz Linea Comandos</a>
+        <a tabindex = "3" href="Otros_datos_interesantes.html" accesskey="o">Otros datos</a>
+        <a tabindex = "4" href="Formulario.html" accesskey="f">Formulario</a>
     </nav>
 
     <main>
@@ -41,7 +41,7 @@
                 <p><label for="apell">Apellidos: </label><input id = "apell" type="text"/></p>
                 <p><label for="date">Fecha nacimiento: </label><input id = "date" type="date"/></p>
                 <p><label for="mail">E-mail: </label><input id = "mail" type="email"/></p>
-                <p><label for="telefono"></label>Teléfono: <input id = "telefono" type="tel"/></p>
+                <p><label for="telefono">Teléfono: </label><input id = "telefono" type="tel"/></p>
                 
                 <fieldset>
                     <legend>¿Te ha sido útil la información?</legend>
@@ -53,7 +53,8 @@
 
                 <fieldset>
                     <legend>Opinión:</legend>
-                    <textarea cols="30" rows="10"></textarea>
+                    <label for="opinion">Dejanos un comentario con tu opinion: </label>
+                    <textarea cols="30" rows="10" id="opinion"></textarea>
                 </fieldset>
                     
                 <input type="submit" value="Enviar" />
