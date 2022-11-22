@@ -1,0 +1,2 @@
+Los archivos css dan un warnind debido a que el validador recoge mal la herencia de colores.
+Warning: Hay un color de fondo establecido y no hay color de primer plano. => Este color se hereda normalmente del body. 
