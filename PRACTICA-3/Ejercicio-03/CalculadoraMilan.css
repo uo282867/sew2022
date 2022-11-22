@@ -1,0 +1,48 @@
+main {
+    display: grid;
+    grid-template-columns: 20% 18% 18% auto auto;
+    border: 0.2em solid black;
+    padding: 1% 1%;
+    column-gap: 0.2em;
+
+    background-color: #faebd7;
+}
+
+textarea {
+    resize: none;
+    width: 98%;
+    height: 2em;
+    margin-right: 4%;
+
+    grid-column: 1/ span 5;
+}
+
+input {
+    margin: 1em 4%;
+    border-radius: 6em;
+}
+
+body {
+    margin: 3em 2%;
+    display: flex;
+
+    justify-content: center;
+}
+
+input[type = "button"] {
+    background-color: #e7e3e3;
+}
+
+label {
+    padding-top: 12%;
+}
+
+h1 {
+    grid-column: 1/ span 5;
+}
+
+input[value = "+"] {
+    grid-column:  4;
+    grid-row: 6 / span 2;
+    border-radius: 2em;
+} 
