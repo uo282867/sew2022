@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Calculadora Cientifica</title>
+
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Enrique" />
+    <meta name ="description" content ="Ejercicio 4 de ECMAScript, Calculadora Cientifica" />
+    <meta name ="keywords" content ="html, css, js, Calculadora" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+
+    <script src="CalculadoraCientifica.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Calculadora Cientifica</h1>
+        <label for = "panelPrincipal">Panel de digitos:</label>
+        <textarea readonly id="panelPrincipal">0</textarea>
+
+        <aside>
+            <input type="button" value="RAD" onClick = "calc.unidadAngular()" />
+            <input type="button" value="HYP" onClick = "calc.hyp()" />
+            <input type="button" value="F-E" onClick = "calc.notacionCient()" />
+            
+            <input type="button" value="Mc" onClick = "calc.mcero()" />
+            <input type="button" value="Mr" onClick = "calc.mrecover()" />
+            <input type="button" value="M-" onClick = "calc.mRestar()" />
+            <input type="button" value="M+" onClick = "calc.mAdd()" />
+            <input type="button" value="Ms" onClick = "calc.msubstitute()" />
+        </aside>
+        
+
+        <input type="button" value="x^2" onClick = "calc.cuadrado()" />
+        <input type="button" value="x^y" onClick = "calc.operadorBasico('**')" />
+        <input type = "button" value = "sin" onClick = "calc.sin()"/>
+        <input type = "button" value = "cos" onClick = "calc.cos()"/>
+        <input type = "button" value = "tan" onClick = "calc.tan()"/>
+
+        <input type="button" value="SQRT" onClick = "calc.raiz()" />
+        <input type="button" value="10^x" onClick = "calc.diezElevado()" />
+        <input type="button" value="log" onClick = "calc.logaritmo()" />
+        <input type="button" value="Exp" onClick = "calc.ponerCeros()" />
+        <input type="button" value="Mod" onClick = "calc.operadorBasico('%')" />
+        
+        <input type="button" value="shift" onClick = "calc.shift()" />
+        <input type="button" value="CE" onClick = "calc.borrar()" />
+        <input type="button" value="C" onClick = "calc.reset()" />
+        <input type="button" value="borrar" onClick = "calc.eliminarCaracter()"/>
+        <input type="button" value="/" onClick = "calc.operadorBasico('/')" />
+        
+        <input type="button" value="pi" onClick = "calc.pi()" />
+        <input type="button" value="7" onClick = "calc.digito(7)" />
+        <input type="button" value="8" onClick = "calc.digito(8)" />
+        <input type="button" value="9" onClick = "calc.digito(9)" />
+        <input type="button" value="x" onClick = "calc.operadorBasico('*')" />
+        
+        <input type="button" value="n!" onClick = "calc.factorial()" />
+        <input type="button" value="4" onClick = "calc.digito(4)" />
+        <input type="button" value="5" onClick = "calc.digito(5)" />
+        <input type="button" value="6" onClick = "calc.digito(6)" />
+        <input type="button" value="-" onClick = "calc.operadorBasico('-')" />
+        
+        <input type="button" value="+/-" onClick = "calc.cambioSigno()" />
+        <input type="button" value="1" onClick = "calc.digito(1)" />
+        <input type="button" value="2" onClick = "calc.digito(2)" />
+        <input type="button" value="3" onClick = "calc.digito(3)" />
+        <input type="button" value="+" onClick = "calc.operadorBasico('+')" />
+
+        <input type="button" value="(" onClick = "calc.abrePar()" />
+        <input type="button" value=")" onClick = "calc.cierraPar()" />
+        <input type="button" value="0" onClick = "calc.digito(0)" />
+        <input type="button" value="." onClick = "calc.punto()" />
+        <input type="button" value="=" onClick = "calc.igual()" />
+        
+    </main>
+
+</body>
+
+</html>
