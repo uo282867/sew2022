@@ -24,7 +24,8 @@
     <h1>Ejercicio 14</h1>
     
     <h2>Introduzca un archivo CSV para mostrar un gráfico</h2>
-    <input type="file" onchange="csvEd.leerArchivoCSV(this.files)" />
+    <label for="f">Selecciona un csv: </label>
+    <input id="f" type="file" onchange="csvEd.leerArchivoCSV(this.files)" />
     <input type="button" value="Mostrar grafico" onClick = "csvEd.getGrafico()" />
 
     <main>
