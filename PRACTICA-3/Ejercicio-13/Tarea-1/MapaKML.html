@@ -25,7 +25,8 @@
     <h1>Ejercicio 13: API de Google Maps</h1>
     <h2>Tarea 1</h2>
     
-    <input type="file" onchange="mpkml.leerArchivo(this.files)" /> 
+    <label for="f">Selecciona un KML: </label>
+    <input id="f" type="file" onchange="mpkml.leerArchivo(this.files)" /> 
     <input type="button" value="Mostrar mapa" onClick = "mpkml.getMapa()"/>
 
     <main>
