@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+<name>Lugar de nacimiento de: nombre1</name>
+<Point>
+<coordinates>
+-5.841981599684213,43.373016979082685
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre1</name>
+<Point>
+<coordinates>
+-5.841981599684213,43.373016979082685
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de nacimiento de: nombre2</name>
+<Point>
+<coordinates>
+-3.041981599684213,40.373016979082685
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre2</name>
+<Point>
+<coordinates>
+-3.041981599684213,40.373016979082685
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de nacimiento de: nombre5</name>
+<Point>
+<coordinates>
+-5.6615200,43.5357300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre5</name>
+<Point>
+<coordinates>
+-5.6615200,43.5357300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de nacimiento de: nombre6</name>
+<Point>
+<coordinates>
+-5.6617300,43.4557300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre6</name>
+<Point>
+<coordinates>
+-5.6617300,43.4557300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de nacimiento de: nombre7</name>
+<Point>
+<coordinates>
+-5.6625200,42.5857300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre7</name>
+<Point>
+<coordinates>
+-5.6617300,43.4657300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de nacimiento de: nombre3</name>
+<Point>
+<coordinates>
+-7.841981599684213,40.373016979082685
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre3</name>
+<Point>
+<coordinates>
+-7.841981599684213,41.373016979082685
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de nacimiento de: nombre8</name>
+<Point>
+<coordinates>
+-5.6615200,42.5357300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre8</name>
+<Point>
+<coordinates>
+-5.6615200,42.5357300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de nacimiento de: nombre9</name>
+<Point>
+<coordinates>
+-5.6617300,42.4557300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre9</name>
+<Point>
+<coordinates>
+-5.6617300,42.4557300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de nacimiento de: nombre10</name>
+<Point>
+<coordinates>
+-5.6655200,42.5857300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre10</name>
+<Point>
+<coordinates>
+-5.6655200,42.5857300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de nacimiento de: nombre4</name>
+<Point>
+<coordinates>
+-3.841981599684213,40.373016979082685
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre4</name>
+<Point>
+<coordinates>
+-3.841981599684213,41.373016979082685
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de nacimiento de: nombre11</name>
+<Point>
+<coordinates>
+-6.6615200,43.5357300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre11</name>
+<Point>
+<coordinates>
+-6.6615200,43.5357300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de nacimiento de: nombre12</name>
+<Point>
+<coordinates>
+-6.6617300,43.4557300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre12</name>
+<Point>
+<coordinates>
+-6.6617300,43.4557300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de nacimiento de: nombre13</name>
+<Point>
+<coordinates>
+-6.6655200,43.5057300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lugar de residencia de: nombre13</name>
+<Point>
+<coordinates>
+-6.6655200,43.5057300
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Datos que describen el documento -->
+        <meta charset="UTF-8" />
+        <title>Ejercicio 13</title>
+    
+        <!--Metadatos de los documentos HTML5-->
+        <meta name ="author" content ="Enrique" />
+        <meta name ="description" content ="Ejercicio 13 de ECMAScript, tarea 2" />
+        <meta name ="keywords" content ="html, css, js, jQuery" />
+    
+        <!--Definición de la ventana gráfica-->
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    
+        <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+        <link rel="stylesheet" type="text/css" href="MapaGeoJSON.css" />
+    
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbqZKwqp-RRg6AWHorXwOjauILE8jvTa8"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="MapaGeoJSON.js"></script>
+    
+    </head>
+<body>
+    <h1>Ejercicio 13: API de Google Maps</h1>
+    <h2>Tarea 2</h2>
+    
+    <input type="file" onchange="mpJSON.leerArchivo(this.files)" /> 
+    <input type="button" value="Mostrar mapa" onClick = "mpJSON.getMapa()"/>
+
+    <main>
+
+    </main>
+
+    <footer>
+        Alumno: Enrique Hilanderas Corbillón, UO282867
+    </footer>
+</body>
+</html>

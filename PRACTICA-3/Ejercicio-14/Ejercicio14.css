@@ -1,0 +1,26 @@
+body {
+    color: black;
+    background: #EDEDED;    
+}
+
+main {
+    margin: 1%;
+}
+
+canvas {
+    border: black 0.1em solid;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    border-bottom: #000000 0.2em double;
+}
+
+input {
+    margin-left: 1em;
+}
+
+footer {
+    margin-top: 1em;
+}

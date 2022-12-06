@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ejercicio 10</title>
+
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Enrique" />
+    <meta name ="description" content ="Ejercicio 10 de ECMAScript" />
+    <meta name ="keywords" content ="html, css, js, jQuery, gasolina, 95, octanos" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio10.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio10.js"></script>
+
+</head>
+
+<body>
+    <h1>Precios de la gasolina de 95 octanos de la localidad de Asturias seleccionada</h1>
+
+    <label for="localidad">Localidad a buscar:</label>
+    <input type="text" value="Oviedo" id="localidad" />
+
+    <input type="button" onclick= "gas.verDatos()" value="Obtener Datos" />
+
+    <footer>
+        Alumno: Enrique Hilanderas Corbillón, UO282867
+    </footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ejercicio 7</title>
+
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Enrique" />
+    <meta name ="description" content ="Ejercicio 7 de ECMAScript" />
+    <meta name ="keywords" content ="html, css, js, jQuery" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio7.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>
+            Ejercicio 7 de ECMAScript
+        </h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>
+                Introduccion a jQuery
+            </h2>
+
+            <p>Primer párrafo</p>
+            <p>Segundo párrafo</p>
+            <p>Tercer párrafo</p>
+            <p>Cuarto párrafo</p>
+            <p>Quinto párrafo</p>
+            <p>Último párrafo</p>
+
+            <h3>
+                Tabla:
+            </h3>
+
+            <table>
+                <tr>
+                    <th scope = "col" id = "Numeros">Numeros</th>
+                    <th scope = "col" id = "Columna1">Columna1</th>
+                    <th scope = "col" id = "Columna2">Columna2</th>
+                </tr>
+                <tr>
+                    <th scope="row" id="Fila1" headers="Numeros">Fila1</th>
+                    <td headers="Fila1 Columna1">12</td>
+                    <td headers="Fila1 Columna2">43</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="Fila2" headers="Numeros">Fila2</th>
+                    <td headers="Fila2 Columna1">27</td>
+                    <td headers="Fila2 Columna2">18</td>
+                </tr>
+            </table>
+
+        </section>
+        
+        <section>
+            <h2>
+                Botones
+            </h2>
+
+            <input type="button" value="Ocultar primer parrafo" onclick="q.ocultarPF()" />
+            <input type="button" value="Ocultar ultimo parrafo" onclick="q.ocultarPL()"/>
+            <input type="button" value="Ocultar todos los parrafo" onclick="q.ocultarP()"/>
+
+            <input type="button" value="Mostrar primer parrafo" onclick="q.mostrarPF()" />
+            <input type="button" value="Mostrar ultimo parrafo" onclick="q.mostrarPL()"/>
+            <input type="button" value="Mostrar todos los parrafo" onclick="q.mostrarP()"/>
+
+            <!-- <input type="button" value="Insetar Fila Tabla" onclick="q.insertFT()"/>
+            <input type="button" value="Insetar Columna Tabla" onclick="q.insertCT()"/>
+            <input type="button" value="Insetar Fila y Columna Tabla" onclick="q.insertAllT()"/> -->
+
+            <input type="button" value="Añadir parrafos" onclick="q.añadirParr()" />
+            <input type="button" value="Eliminar parrafos" onclick="q.elimParr()"/>
+            <input type="button" value="Recorrer Elementos" onclick="q.recorrerElementos()"/>
+
+            <input type="button" value="Sumar filas y columnas tabla" onclick="q.sumarFilasCol()"/>
+
+
+        </section>
+        
+    </main>
+</body>
+
+</html>

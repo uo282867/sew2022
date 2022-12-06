@@ -1,0 +1,318 @@
+{
+    "type": "FeatureCollection",
+    "name": "arbolGenealogico",
+    "features": [
+        { 
+            "type": "Feature", 
+            "properties": 
+                {   
+                    "Name": "Lugar de nacimiento de: nombre1"
+                }, 
+            "geometry": 
+                {   
+                    "type": "Point", 
+                    "coordinates": [ -5.841981599684213, 43.373016979082685 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre1"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.841981599684213, 43.373016979082685 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de nacimiento de: nombre2"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -3.041981599684213, 40.373016979082685 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre2"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -3.041981599684213, 40.373016979082685 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de nacimiento de: nombre5"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.66152, 43.53573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre5"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.66152, 43.53573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de nacimiento de: nombre6"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.66173, 43.45573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre6"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.66173, 43.45573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de nacimiento de: nombre7"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.66252, 42.58573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre7"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.66173, 43.46573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de nacimiento de: nombre3"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -7.841981599684213, 40.373016979082685 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre3"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -7.841981599684213, 41.373016979082685 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de nacimiento de: nombre8"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.66152, 42.53573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre8"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.66152, 42.53573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de nacimiento de: nombre9"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.66173, 42.45573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre9"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.66173, 42.45573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de nacimiento de: nombre10"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.66552, 42.58573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre10"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -5.66552, 42.58573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de nacimiento de: nombre4"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -3.841981599684213, 40.373016979082685 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre4"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -3.841981599684213, 41.373016979082685 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de nacimiento de: nombre11"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -6.66152, 43.53573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre11"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -6.66152, 43.53573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de nacimiento de: nombre12"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -6.66173, 43.45573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre12"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -6.66173, 43.45573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de nacimiento de: nombre13"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -6.66552, 43.50573 ] 
+                } 
+        },
+        { 
+            "type": "Feature", 
+            "properties": 
+                { 
+                    "Name": "Lugar de residencia de: nombre13"
+                }, 
+            "geometry": 
+                { 
+                    "type": "Point", 
+                    "coordinates": [ -6.66552, 43.50573 ] 
+                } 
+        }
+    ]
+}

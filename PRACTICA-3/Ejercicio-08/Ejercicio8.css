@@ -1,0 +1,21 @@
+body {
+    color: black;
+    background: #EDEDED;    
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    border: solid 0.3em gray;
+    padding: 1%;
+    margin: 2%;
+
+    background: azure
+}
+
+footer {
+    margin-top: 1em;
+}

@@ -1,0 +1,15 @@
+body {
+    color: black;
+    background: #EDEDED;    
+}
+
+main {
+    width:90%; 
+    height:40vw; 
+    margin: 1%;
+}
+
+
+footer {
+    margin-top: 1em;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Datos que describen el documento -->
+        <meta charset="UTF-8" />
+        <title>Ejercicio 14</title>
+    
+        <!--Metadatos de los documentos HTML5-->
+        <meta name ="author" content ="Enrique" />
+        <meta name ="description" content ="Ejercicio 14 de ECMAScript" />
+        <meta name ="keywords" content ="html, css, js, jQuery" />
+    
+        <!--Definición de la ventana gráfica-->
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    
+        <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+        <link rel="stylesheet" type="text/css" href="Ejercicio14.css" />
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="Ejercicio14.js"></script>
+    
+    </head>
+<body>
+    <h1>Ejercicio 14</h1>
+    
+    <h2>Introduzca un archivo CSV para mostrar un gráfico</h2>
+    <input type="file" onchange="csvEd.leerArchivoCSV(this.files)" />
+    <input type="button" value="Mostrar grafico" onClick = "csvEd.getGrafico()" />
+
+    <main>
+        <canvas></canvas>
+    </main>
+    
+    <footer>
+        Alumno: Enrique Hilanderas Corbillón, UO282867
+    </footer>
+</body>
+</html>

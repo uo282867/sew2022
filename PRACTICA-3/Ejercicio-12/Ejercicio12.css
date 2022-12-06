@@ -1,0 +1,26 @@
+body {
+    color: black;
+    background: #EDEDED;    
+}
+
+main {
+    margin: 1%;
+}
+
+section {
+    margin: 2% 0%;
+    padding: 0% 1%;
+    border: black 0.2em solid;
+}
+
+h2 {
+    border-bottom: black 0.2em double;
+}
+
+ul {
+    margin-bottom: 1em;
+}
+
+footer {
+    margin-top: 1em;
+}
