@@ -1,0 +1,57 @@
+nav {
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav > a {
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border: 0.2em solid #363636;
+    padding: 1%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    border: 0.3em black solid;
+    padding: 0% 2% 2%;    
+    margin-bottom: 3%;
+}
+
+h2 {
+    border-bottom: double gray 0.2em;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+input[type="range"] {
+    margin-top: 2%;
+}
+
+output {
+    margin-top: 2%;
+}
+
+input {
+    margin: 1%;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+    grid-column: 2/span 2;
+}
+
+input[type="submit"] {
+    grid-column: 3;
+}
+
+fieldset {
+    grid-column: 1/span 3;
+    margin: 1% 0%;
+}

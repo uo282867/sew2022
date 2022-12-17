@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <title>Ejercicio 6</title>
+
+    <!--Metadatos de los documentos HTML5-->
+    <meta name="author" content="Enrique">
+    <meta name="description" content="Ejercicio 6 de php">
+    <meta name="keywords" content="html, css">
+
+    <!--Definición de la ventana gráfica-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio6.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <h1>Ejercicio 6</h1>
+    </header>
+    
+    <nav>
+        <a tabindex="1" href="./Ejercicio6.php#CrearBase" accesskey="b">Crear Base de Datos</a>
+        <a tabindex="2" href="./Ejercicio6.php#CrearTabla" accesskey="t">Crear una tabla</a>
+        <a tabindex="3" href="./Ejercicio6.php#InsertData" accesskey="i">Insertar datos en una tabla</a>
+        <a tabindex="4" href="./Ejercicio6.php#Search" accesskey="s">Buscar datos en una tabla</a>
+        <a tabindex="5" href="./Ejercicio6.php#Modify" accesskey="m">Modificar datos en una tabla</a>
+        <a tabindex="6" href="./Ejercicio6.php#Delete" accesskey="e">Eliminar datos de una tabla</a>
+        <a tabindex="7" href="./Ejercicio6.php#Informe" accesskey="g">Generar informe</a>
+        <a tabindex="8" href="./Ejercicio6.php#ImprtCSV" accesskey="c">Cargar datos desde un archivo CSV en una tabla de la Base de Datos</a>
+        <a tabindex="9" href="./Ejercicio6.php#ExportCSV" accesskey="x">Exportar datos (CSV) desde una tabla de la Base de Datos</a>
+    </nav>
+
+    <main>
+
+        <section id="CrearBase">
+            <h2>Crear Base de Datos</h2>
+            <form action="#" method="post">
+                <input type="submit" name="CrearBase" value="Crear Base de Datos">
+            </form>
+
+            <p>Base de datos testUsabilidad creada con éxito</p>        </section>
+
+        <section id="CrearTabla">
+            <h2>Crear una tabla</h2>
+            <form action="#" method="post">
+                <input type="submit" name="createTable" value="Crear Tabla PruebasUsabilidad">
+            </form>
+
+                    </section>
+
+        <section id="InsertData">
+            <h2>Insertar datos en una tabla</h2>
+            <form action="#" method="post">
+                <label for="dni_Insertar">DNI:</label><input id="dni_Insertar" type="text" name="dni">
+                <label for="nombre_Insertar">nombre:</label><input id="nombre_Insertar" type="text" name="nombre">
+                <label for="apellidos_Insertar">apellidos:</label><input id="apellidos_Insertar" type="text" name="apellidos">
+                <label for="email_Insertar">email:</label><input id="email_Insertar" type="email" name="email">
+                <label for="telefono_Insertar">telefono:</label><input id="telefono_Insertar" type="tel" name="telefono">
+                <label for="edad_Insertar">edad:</label><input id="edad_Insertar" type="text" name="edad">
+                <fieldset>
+                    <legend>Sexo</legend>
+
+                    <p><label for="sexo_Hombre_Insert">Hombre: </label><input id="sexo_Hombre_Insert" type="radio" name="sexo" value="Hombre" checked=""></p>
+                    <p><label for="sexo_Mujer_Insert">Mujer: </label><input id="sexo_Mujer_Insert" type="radio" name="sexo" value="Mujer"></p>
+
+                </fieldset>
+                <!-- <label for="sexo_Insertar">sexo:</label><input id="sexo_Insertar" type="text" name="sexo" /> -->
+                <label for="nivelInformatica_Insertar">nivel de informatica:</label><input id="nivelInformatica_Insertar" type="range" value="5" min="0" max="10" step="1" oninput="this.nextElementSibling.value = this.value" name="nivelInformatica"><output>5</output>
+                <label for="tiempo_Insertar">tiempo:</label><input id="tiempo_Insertar" type="text" name="tiempo">
+                <fieldset>
+                    <legend>Tarea completada</legend>
+
+                    <p><label for="si_tareaCorrecta_Insertar">Si: </label><input id="si_tareaCorrecta_Insertar" type="radio" name="tareaCorrecta" value="true" checked=""></p>
+                    <p><label for="no_tareaCorrecta_Insertar">No: </label><input id="no_tareaCorrecta_Insertar" type="radio" name="tareaCorrecta" value="false"></p>
+
+                </fieldset>
+                <!-- <label for="tareaCorrecta_Insertar">tarea correcta:</label><input id="tareaCorrecta_Insertar" type="text" name="tareaCorrecta" /> -->
+                <label for="comentarios_Insertar">comentarios:</label><input id="comentarios_Insertar" type="text" name="comentarios">
+                <label for="propuesta_Insertar">mejoras propuestas:</label><input id="propuesta_Insertar" type="text" name="propuesta">
+                <label for="valoracion_Insertar">valoracion:</label><input id="valoracion_Insertar" type="range" value="5" min="0" max="10" step="1" oninput="this.nextElementSibling.value = this.value" name="valoracion"><output>5</output>
+
+                <input type="submit" name="insertar" value="Insertar">
+            </form>
+
+                    </section>
+
+        <section id="Search">
+            <h2>Buscar datos en una tabla</h2>
+            <form action="#" method="post">
+                <label for="dni_Buscar">DNI:</label><input id="dni_Buscar" type="text" name="dni">
+                <input type="submit" name="buscar" value="Buscar">
+            </form>
+
+                    </section>
+
+        <section>
+            <h2>Mostrar todos los datos en una tabla</h2>
+            <form action="#" method="post">
+                <input type="submit" name="buscarAll" value="Mostrar">
+            </form>
+
+                    </section>
+
+        <section id="Modify">
+            <h2>Modificar datos en una tabla</h2>
+            <form action="#" method="post">
+                <label for="dni_Modificar">DNI:</label><input id="dni_Modificar" type="text" name="dni">
+                <label for="nombre_Modificar">Nuevo nombre:</label><input id="nombre_Modificar" type="text" name="nombre">
+                <label for="apellidos_Modificar">Nuevos apellidos:</label><input id="apellidos_Modificar" type="text" name="apellidos">
+                <label for="email_Modificar">Nuevo email:</label><input id="email_Modificar" type="email" name="email">
+                <label for="telefono_Modificar">Nuevo telefono:</label><input id="telefono_Modificar" type="tel" name="telefono">
+                <label for="edad_Modificar">Nueva edad:</label><input id="edad_Modificar" type="text" name="edad">
+                <fieldset>
+                    <legend>Nuevo sexo</legend>
+
+                    <p><label for="sexo_Hombre_Modificar">Hombre: </label><input id="sexo_Hombre_Modificar" type="radio" name="sexo" value="Hombre" checked=""></p>
+                    <p><label for="sexo_Mujer_Modificar">Mujer: </label><input id="sexo_Mujer_Modificar" type="radio" name="sexo" value="Mujer"></p>
+
+                </fieldset>
+                <!-- <label for="sexo_Modificar">Nuevo sexo:</label><input id="sexo_Modificar" type="text" name="sexo" /> -->
+                <label for="nivelInformatica_Modificar">Nuevo nivel de informatica:</label><input id="nivelInformatica_Modificar" type="range" value="5" min="0" max="10" step="1" oninput="this.nextElementSibling.value = this.value" name="nivelInformatica"><output>5</output>
+                <label for="tiempo_Modificar">Nuevo tiempo:</label><input id="tiempo_Modificar" type="text" name="tiempo">
+                <fieldset>
+                    <legend>Tarea completada</legend>
+
+                    <p><label for="si_tareaCorrecta_Modificar">Si: </label><input id="si_tareaCorrecta_Modificar" type="radio" name="tareaCorrecta" value="true" checked=""></p>
+                    <p><label for="no_tareaCorrecta_Modificar">No: </label><input id="no_tareaCorrecta_Modificar" type="radio" name="tareaCorrecta" value="false"></p>
+
+                </fieldset>
+                <!-- <label for="tareaCorrecta_Modificar">Nueva tarea correcta:</label><input id="tareaCorrecta_Modificar" type="text" name="tareaCorrecta" /> -->
+                <label for="comentarios_Modificar">Nuevos comentarios:</label><input id="comentarios_Modificar" type="text" name="comentarios">
+                <label for="propuesta_Modificar">Nuevas mejoras propuestas:</label><input id="propuesta_Modificar" type="text" name="propuesta">
+                <label for="valoracion_Modificar">Nueva valoracion:</label><input id="valoracion_Modificar" type="range" value="5" min="0" max="10" step="1" oninput="this.nextElementSibling.value = this.value" name="valoracion"><output>5</output>
+
+                <input type="submit" name="modificar" value="Modificar">
+            </form>
+
+                    </section>
+
+        <section id="Delete">
+            <h2>Eliminar datos en una tabla</h2>
+            <form action="#" method="post">
+                <label for="dni_Eliminar">DNI:</label><input id="dni_Eliminar" type="text" name="dni">
+                <input type="submit" name="eliminar" value="Eliminar">
+            </form>
+
+                    </section>
+
+        <section id="Informe">
+            <h2>Generar informe</h2>
+            <form action="#" method="post">
+                <input type="submit" name="GenerarInforme" value="Generar Informe">
+            </form>
+
+                    </section>
+
+        <section id="ImprtCSV">
+            <h2>Importar CSV</h2>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label for="f">Selecciona un csv: </label>
+                <input id="f" type="file" name="csvFile">
+                <input type="submit" name="impCSV" value="Importar CSV">
+            </form>
+
+                    </section>
+
+        <section id="ExportCSV">
+            <h2>Exportar CSV</h2>
+            <form action="#" method="post">
+                <input type="submit" name="expCSV" value="Exportar CSV">
+            </form>
+
+                    </section>
+
+    </main>
+
+    <footer>
+        Alumno: Enrique Hilanderas Corbillón, UO282867
+    </footer>
+
+</body></html>

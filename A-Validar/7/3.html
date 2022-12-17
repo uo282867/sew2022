@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <title>Ejercicio 7</title>
+
+    <!--Metadatos de los documentos HTML5-->
+    <meta name="author" content="Enrique">
+    <meta name="description" content="Ejercicio 7 de php">
+    <meta name="keywords" content="html, css">
+
+    <!--Definición de la ventana gráfica-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <h1>Ejercicio 7: Gestion Torneos Karate</h1>
+    </header>
+    
+    <main>
+
+        <section>
+            <h2>Crear Base de Datos</h2>
+            <form action="#" method="post">
+                <input type="submit" name="CrearBase" value="Crear Base de Datos">
+            </form>
+
+                    </section>
+
+        <section>
+            <h2>Crear tablas</h2>
+            <form action="#" method="post">
+                <input type="submit" name="createTable" value="Crear Tabla PruebasUsabilidad">
+            </form>
+
+                    </section>
+
+        <section>
+            <h2>Insertar datos Club</h2>
+            <form action="#" method="post">
+                <label for="id_Club_Insertar">ID Club:</label><input id="id_Club_Insertar" type="text" name="id_Club">
+                <label for="nombre_club_Insertar">Nombre Club:</label><input id="nombre_club_Insertar" type="text" name="nombre_club">
+
+                <input type="submit" name="insertarClub" value="Insertar">
+            </form>
+
+                    </section>
+
+        <section>
+            <h2>Insertar datos Competidor</h2>
+            <form action="#" method="post">
+                <label for="dni_Insertar">DNI Competidor:</label><input id="dni_Insertar" type="text" name="dni_competidor">
+                <label for="nombre_Insertar">Nombre:</label><input id="nombre_Insertar" type="text" name="nombre_competidor">
+                <label for="apellidos_Insertar">Apellidos:</label><input id="apellidos_Insertar" type="text" name="apellidos_competidor">
+                <label for="edad_Insertar">Edad competidor:</label><input id="edad_Insertar" type="text" name="edad_competidor">
+                <label for="peso_Insertar">Peso competidor:</label><input id="peso_Insertar" type="text" name="peso_competidor">
+                <fieldset>
+                    <legend>Sexo</legend>
+
+                    <p><label for="sexo_Hombre_Insert">Masculino: </label><input id="sexo_Hombre_Insert" type="radio" name="sexo_competidor" value="Masculino" checked=""></p>
+                    <p><label for="sexo_Mujer_Insert">Femenino: </label><input id="sexo_Mujer_Insert" type="radio" name="sexo_competidor" value="Femenino"></p>
+
+                </fieldset>
+                
+                <label for="cinturon_Insertar">Cinturón:</label><input id="cinturon_Insertar" type="text" name="cinturon">
+                <label for="id_Club_Insertar_Comp">Id Club:</label><input id="id_Club_Insertar_Comp" type="text" name="id_Club">
+
+                <input type="submit" name="insertarCompetidor" value="Insertar">
+            </form>
+
+                    </section>
+
+        <section>
+            <h2>Registrar Participante</h2>
+            <form action="#" method="post">
+                <label for="dni_competidor_Insertar">DNI Competidor:</label><input id="dni_competidor_Insertar" type="text" name="dni_competidor">
+                <label for="id_categoria_Registro">Categoria:</label><input id="id_categoria_Registro" type="text" name="id_categoria">
+
+                <input type="submit" name="RegistrarParticipante" value="Registrarse">
+            </form>
+
+                    </section>
+
+        <section>
+            <h2>Mostrar Categorias Competidor</h2>
+            <form action="#" method="post">
+                <label for="dni_Comp_Buscar_CAT">DNI Competidor:</label><input id="dni_Comp_Buscar_CAT" type="text" name="dni_competidor">
+                <input type="submit" name="buscarCats" value="Buscar Categorias">
+            </form>
+
+                    </section>
+
+        <section>
+            <h2>Mostrar Todos los Competidores</h2>
+            <form action="#" method="post">
+                <input type="submit" name="buscarAll" value="Mostrar">
+            </form>
+
+            <pre>(DNI,	Nombre,	Apellidos,	Edad,	Peso,	Cinturón,	Sexo,	Club)
+1,	comp1,	ap comp1,	13,	33,	blanco,	Masculino,	Karate_Oviedo
+10,	comp10,	ap comp10,	10,	33,	blanco,	Femenino,	Karate_Aviles
+11,	comp11,	ap comp11,	15,	40,	marron,	Masculino,	Karate_Aviles
+12,	comp12,	ap comp12,	18,	40,	negro 1D,	Masculino,	Karate_Aviles
+13,	comp13,	ap comp13,	12,	33,	naranja,	Femenino,	Karate_Gijon
+14,	comp14,	ap comp14,	11,	32,	amarillo,	Masculino,	Karate_Gijon
+15,	comp15,	ap comp15,	15,	39,	marron,	Femenino,	Karate_Gijon
+16,	comp16,	ap comp16,	20,	60,	negro 2D,	Masculino,	Karate_Gijon
+17,	comp17,	ap comp17,	13,	33,	blanco,	Femenino,	Karate_Gijon
+18,	comp18,	ap comp18,	14,	40,	azul,	Masculino,	Karate_Gijon
+19,	comp19,	ap comp19,	11,	33,	blanco,	Masculino,	Karate_Gijon
+2,	comp2,	ap comp2,	14,	37,	blanco,	Masculino,	Karate_Oviedo
+20,	comp20,	ap comp20,	20,	54,	negro 2D,	Femenino,	Karate_Gijon
+21,	comp21,	ap comp21,	5,	20,	blanco,	Masculino,	Karate_Gijon
+3,	comp3,	ap comp3,	14,	37,	naranja,	Femenino,	Karate_Oviedo
+4,	comp4,	ap comp4,	14,	34,	verde,	Masculino,	Karate_Oviedo
+5,	comp5,	ap comp5,	9,	30,	blanco,	Femenino,	Karate_Oviedo
+6,	comp6,	ap comp6,	13,	34,	naranja,	Masculino,	Karate_Oviedo
+7,	comp7,	ap comp7,	8,	20,	blanco,	Femenino,	Karate_Aviles
+8,	comp8,	ap comp8,	16,	48,	negro,	Masculino,	Karate_Aviles
+9,	comp9,	ap comp9,	16,	50,	marron,	Masculino,	Karate_Aviles</pre>        </section>
+
+        <section>
+            <h2>Modificar datos Competidor</h2>
+            <form action="#" method="post">
+                <label for="dni_Modif">DNI Competidor:</label><input id="dni_Modif" type="text" name="dni_competidor">
+                <label for="nombre_Modif">Nombre:</label><input id="nombre_Modif" type="text" name="nombre_competidor">
+                <label for="apellidos_Modif">Apellidos:</label><input id="apellidos_Modif" type="text" name="apellidos_competidor">
+                <label for="edad_Modif">Edad competidor:</label><input id="edad_Modif" type="text" name="edad_competidor">
+                <label for="peso_Modif">Peso competidor:</label><input id="peso_Modif" type="text" name="peso_competidor">
+                <fieldset>
+                    <legend>Sexo</legend>
+
+                    <p><label for="sexo_Hombre_Modif">Masculino: </label><input id="sexo_Hombre_Modif" type="radio" name="sexo_competidor" value="Masculino" checked=""></p>
+                    <p><label for="sexo_Mujer_Modif">Femenino: </label><input id="sexo_Mujer_Modif" type="radio" name="sexo_competidor" value="Femenino"></p>
+
+                </fieldset>
+                
+                <label for="cinturon_Modif">Cinturón:</label><input id="cinturon_Modif" type="text" name="cinturon">
+                <label for="id_Club_Modif">Id Club:</label><input id="id_Club_Modif" type="text" name="id_Club">
+
+                <input type="submit" name="modificar" value="Modificar">
+            </form>
+
+                    </section>
+
+        <section>
+            <h2>Eliminar participante</h2>
+            <form action="#" method="post">
+                <label for="dni_Eliminar">DNI:</label><input id="dni_Eliminar" type="text" name="dni_competidor">
+                <input type="submit" name="eliminar" value="Eliminar">
+            </form>
+
+                    </section>
+
+        <section>
+            <h2>Importar CSV</h2>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label for="f">Selecciona un csv: </label>
+                <input id="f" type="file" name="csvFile">
+                <input type="submit" name="impCSV" value="Importar CSV">
+            </form>
+
+                    </section>
+
+    </main>
+
+    <footer>
+        Alumno: Enrique Hilanderas Corbillón, UO282867
+    </footer>
+
+</body></html>
