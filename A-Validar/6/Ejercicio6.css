@@ -55,3 +55,7 @@ fieldset {
     grid-column: 1/span 3;
     margin: 1% 0%;
 }
+
+pre {
+    font: optional;
+}
