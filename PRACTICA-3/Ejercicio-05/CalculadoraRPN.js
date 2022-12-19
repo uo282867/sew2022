@@ -69,6 +69,14 @@ class CalculadoraRPN {
         }
     }
 
+    sqrt() {
+        if (this.pila.length >= 1) {
+            var elemento1 = this.pila.pop();
+            this.pila.push(new Number(Math.sqrt(elemento1)));
+            this.mostrarDatos();
+        }
+    }
+
     sin() {
         if (this.pila.length >= 1) {
             var elemento1 = this.pila.pop();
@@ -124,7 +132,7 @@ class CalculadoraRPN {
     }
 
     numero(n) {
-        this.textoMostrar = new Number(this.textoMostrar.toString() + n).toString();
+        this.textoMostrar = this.textoMostrar.toString() + n;
         this.escribe();
     }
 

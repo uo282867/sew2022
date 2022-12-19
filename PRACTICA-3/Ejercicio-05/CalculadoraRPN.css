@@ -45,3 +45,12 @@ input[type = "button"] {
 label {
     padding-top: 12%;
 }
+
+input[value = "C"] {
+    grid-row: 4/span 2;
+}
+
+
+input[value = "enter"] {
+    grid-column: 2/span 3;
+}
