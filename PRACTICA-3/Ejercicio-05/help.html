@@ -15,7 +15,6 @@
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
 
     <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
-    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
 
     <script src="CalculadoraRPN.js"></script>
 </head>
@@ -24,23 +23,27 @@
     <main>
         <h1>Funcionamiento</h1>
         <pre>
-            Las calculadoras RPN utilizan notación postfija o RPN, es decir primero van los operandos y
-            después los operadores. En la pila solamente se introducen los números (enteros y float).
-            
-            
-            Por ejemplo, para calcular 12+3 se debe escribir “12 Enter 3 Enter +”
+Las calculadoras RPN utilizan notación postfija o RPN, 
+es decir primero van los operandos y
+después los operadores. 
 
-            La evaluación se realiza utilizando una pila, así para evaluar “12 Enter 3 Enter +” el proceso es el
-            siguiente:
+En la pila solamente se introducen los números (enteros y float).
 
-            - se teclea 12 (se inserta 12 en la pila pulsando la tecla “Enter”)
 
-            - se teclea 3 (se inserta 3 en la pila pulsando la tecla “Enter”)
+Por ejemplo, para calcular 12+3 se debe escribir “12 Enter 3 Enter +”
 
-            - se teclea + (al ser un operador binario se sacan los dos últimos elementos de la pila y el
-            resultado se mete en la pila)
+La evaluación se realiza utilizando una pila, 
+así para evaluar “12 Enter 3 Enter +” el proceso es el
+siguiente:
 
-            - En la pila solamente queda el valor 15 (la suma de los operandos).
+- se teclea 12 (se inserta 12 en la pila pulsando la tecla “Enter”)
+
+- se teclea 3 (se inserta 3 en la pila pulsando la tecla “Enter”)
+
+- se teclea + (al ser un operador binario se sacan los dos últimos elementos 
+de la pila y el resultado se mete en la pila)
+
+- En la pila solamente queda el valor 15 (la suma de los operandos).
         </pre>
 
     </main>
